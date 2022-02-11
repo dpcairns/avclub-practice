@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+header {
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+header .left, header .middle, header .right {
+    border: solid 1px black;
+
+}
+main {
+    border: solid 1px black
+
+}
+
+main section {
+    width: 80%;
+    border: solid 1px black;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+main section .top, main section .bottom {
+    border: solid 1px black;
+}
+
+main section .bottom {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.quarter {
+    border: solid 1px black;
+}
+
+main section .top {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+
+.top-middle, .top-left, .top-right {
+    border: solid 1px black;
+}
+
+.top-middle, .top-right {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.mini-article {
+    border: solid 1px black;
+}
